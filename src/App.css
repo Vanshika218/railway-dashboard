@@ -32,5 +32,10 @@ html, body, #root {
 
 .content {
   flex: 1;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.content > div {
+  flex: 1;  /* Make MapView stretch */
 }
